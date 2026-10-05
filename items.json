@@ -1,0 +1,142 @@
+[
+  {
+    "id": "copper-ore",
+    "name": "Copper Ore",
+    "nl": "Kopererts",
+    "category": "Materialen",
+    "description": "Erts voor koperverwerking en bouwrecepten.",
+    "obtain": "Mijn koperafzettingen; The Digby Boy kan ook kopererts verzamelen.",
+    "source": "https://once-human.fandom.com/wiki/Copper_Ore",
+    "recipe": [],
+    "station": "",
+    "note": "",
+    "checked": "2026-10-04",
+    "status": "Bron nagekeken · in-game controle open"
+  },
+  {
+    "id": "copper-ingot",
+    "name": "Copper Ingot",
+    "nl": "Koperstaaf",
+    "category": "Materialen",
+    "description": "Verwerkt koper dat in uiteenlopende craftingrecepten wordt gebruikt.",
+    "obtain": "Smelt kopererts in een Furnace.",
+    "source": "https://once-human.fandom.com/wiki/Copper_Ore",
+    "recipe": [
+      {
+        "id": "copper-ore",
+        "amount": 3
+      },
+      {
+        "id": "charcoal",
+        "amount": 1
+      }
+    ],
+    "station": "Furnace",
+    "note": "Deze variant gebruikt een gewone Furnace. Elektrische ovens kunnen andere vereisten hebben.",
+    "checked": "2026-10-04",
+    "status": "Bron nagekeken · in-game controle open"
+  },
+  {
+    "id": "wood",
+    "name": "Wood",
+    "nl": "Hout",
+    "category": "Materialen",
+    "description": "Ingrediënt voor onder meer houtskool en bouwobjecten.",
+    "obtain": "Verzamel hout in de wereld. Gedetailleerde locaties worden nog toegevoegd.",
+    "source": "https://www.oncehumandb.com/items/wood",
+    "recipe": [],
+    "station": "",
+    "note": "",
+    "checked": "2026-10-04",
+    "status": "Bron nagekeken · in-game controle open"
+  },
+  {
+    "id": "gravel",
+    "name": "Gravel",
+    "nl": "Grind",
+    "category": "Materialen",
+    "description": "Bouwmateriaal voor onder meer de Furnace en Planter Box.",
+    "obtain": "De precieze verkrijging en locaties worden nog gecontroleerd.",
+    "source": "https://www.oncehumandb.com/recipes/furnace",
+    "recipe": [],
+    "station": "",
+    "note": "",
+    "checked": "2026-10-04",
+    "status": "Bron nagekeken · in-game controle open"
+  },
+  {
+    "id": "charcoal",
+    "name": "Charcoal",
+    "nl": "Houtskool",
+    "category": "Materialen",
+    "description": "Verwerkt hout, bruikbaar als ingrediënt bij het smelten van koper.",
+    "obtain": "Verwerk hout in een Furnace.",
+    "source": "https://www.oncehumandb.com/recipes/charcoal",
+    "recipe": [
+      {
+        "id": "wood",
+        "amount": 5
+      }
+    ],
+    "station": "Furnace",
+    "note": "",
+    "checked": "2026-10-04",
+    "status": "Bron nagekeken · in-game controle open"
+  },
+  {
+    "id": "furnace",
+    "name": "Furnace",
+    "nl": "Smeltoven",
+    "category": "Bouwobjecten",
+    "description": "Werkstation voor het verwerken van grondstoffen.",
+    "obtain": "Plaats via de bouwmodus na de benodigde ontgrendeling.",
+    "source": "https://www.oncehumandb.com/recipes/furnace",
+    "recipe": [
+      {
+        "id": "copper-ore",
+        "amount": 20
+      },
+      {
+        "id": "gravel",
+        "amount": 30
+      }
+    ],
+    "station": "Bouwmodus",
+    "note": "Dit is één receptvariant. De bron vermeldt ook varianten met Wakeful Sand of Iron Ore; scenario en server bepalen welke geldt.",
+    "checked": "2026-10-04",
+    "status": "Bron nagekeken · in-game controle open"
+  },
+  {
+    "id": "dirty-water",
+    "name": "Dirty Water",
+    "nl": "Vuil water",
+    "category": "Materialen",
+    "description": "Ingrediënt voor Boiled Water.",
+    "obtain": "De precieze verkrijging en locaties worden nog gecontroleerd.",
+    "source": "https://www.oncehumandb.com/recipes/boiled-water",
+    "recipe": [],
+    "station": "",
+    "note": "",
+    "checked": "2026-10-04",
+    "status": "Bron nagekeken · in-game controle open"
+  },
+  {
+    "id": "boiled-water",
+    "name": "Boiled Water",
+    "nl": "Gekookt water",
+    "category": "Consumables",
+    "description": "Drinkwater dat een kleine hoeveelheid hydratatie herstelt.",
+    "obtain": "Bereid met Dirty Water bij een geschikt kookstation.",
+    "source": "https://www.oncehumandb.com/recipes/boiled-water",
+    "recipe": [
+      {
+        "id": "dirty-water",
+        "amount": 3
+      }
+    ],
+    "station": "Stove / Electric Stove / Kitchen Set / Campsite",
+    "note": "Dit is één receptvariant; andere scenario’s kunnen andere watertypen of stations ondersteunen. Exacte hydratatiewaarde nog niet ingevuld.",
+    "checked": "2026-10-04",
+    "status": "Bron nagekeken · in-game controle open"
+  }
+]
